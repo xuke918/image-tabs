@@ -20,8 +20,11 @@ html{
 
 .tabs {
   list-style-type: circle;
+  margin: 0;
 
 }
+
+
 
 
 .tabs a {
