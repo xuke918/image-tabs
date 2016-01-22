@@ -18,12 +18,17 @@ html{
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .tabs {
   list-style-type: none;
   margin: 0;
   padding: 0;
   position: relative;
-  top: 200px;
+  top: 350px;
+  text-align: center;
 }
 
 .tabs li {
@@ -36,14 +41,17 @@ html{
   width: 15px;
   border: 3px grey solid;
   border-radius: 100%;
+  transition: all 500ms linear;
 }
 
 .tabs a:hover {
   background-color: grey;
 }
 
-
-
 .panel {
   display: none;
+}
+
+.panel:target {
+  display: block;
 }
