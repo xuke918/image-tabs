@@ -19,15 +19,13 @@ html{
 
 body {
   margin: 0;
-  padding: 0;
 }
 
 .tabs {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: relative;
-  top: 350px;
+
   text-align: center;
 }
 
