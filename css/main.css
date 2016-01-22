@@ -1,4 +1,4 @@
-@-moz-viewport { width:device-width; scale: 1}
+@-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width:device-width; scale: 1}
 @-o-viewport { width:device-width; scale: 1}
 @-webkit-viewport { width:device-width; scale: 1}
@@ -16,7 +16,6 @@ html{
   box-sizing: inherit;
 }
 
-
 body {
   margin: 0;
 }
@@ -25,7 +24,6 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-
   text-align: center;
 }
 
