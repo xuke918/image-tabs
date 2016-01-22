@@ -28,3 +28,7 @@ html{
   display: inline-block;
   background-color: grey;
 }
+
+.panel {
+  display: none;
+}
