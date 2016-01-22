@@ -22,22 +22,25 @@ html{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: relative;
+  top: 200px;
 }
 
-.tabs > li {
+.tabs li {
   display: inline-block;
 }
 
-
-
-.link {
+.tabs a {
+  display: inline-block;
   height: 15px;
   width: 15px;
-  border: 4px grey solid;
+  border: 3px grey solid;
   border-radius: 100%;
-  display: inline-block;
 }
 
+.tabs a:hover {
+  background-color: grey;
+}
 
 
 
