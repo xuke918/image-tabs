@@ -20,12 +20,9 @@ html{
 
 .tabs {
   list-style-type: circle;
+
 }
 
-
-.tabs > li {
-  display: inline-block;
-}
 
 .tabs a {
   display: inline-block;
