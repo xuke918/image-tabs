@@ -19,18 +19,27 @@ html{
 }
 
 .tabs {
-  list-style-type: circle;
+  list-style-type: none;
   margin: 0;
-
+  padding: 0;
 }
 
-
-
-
-.tabs a {
+.tabs > li {
   display: inline-block;
-  background-color: grey;
 }
+
+
+
+.link {
+  height: 15px;
+  width: 15px;
+  border: 4px grey solid;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+
+
 
 .panel {
   display: none;
