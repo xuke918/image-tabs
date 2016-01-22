@@ -20,6 +20,7 @@ html{
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 .tabs {
@@ -54,4 +55,8 @@ body {
 
 .panel:target {
   display: block;
+}
+
+img {
+  width: 100%;
 }
